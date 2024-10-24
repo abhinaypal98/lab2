@@ -10,7 +10,7 @@ phases:
     commands:
       - echo Building the Docker image...
       - docker build -t abhinay/mywebsite .
-      - docker tag abhinay/mywebsite:0.2 864899837235.dkr.ecr.ap-south-1.amazonaws.com/accordion/abhinay
+      - docker tag abhinay/mywebsite:0.2 864899837235.dkr.ecr.ap-south-1.amazonaws.com/accordion/abhinay:0.2
 
   post_build:
     commands:
